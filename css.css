@@ -1,0 +1,74 @@
+html, body {
+	background: #36393E;
+}
+
+h3 {
+	color: #008700;
+	padding: 2px;
+	text-align: center;
+	font-family: monospace;
+	cursor: context-menu;
+}
+
+.logging {
+	display: grid;
+	align-items: center;
+  	justify-content: center;
+}
+
+.input {
+	border: #a8a8a8 2px solid;
+	border-radius: 15px;
+	text-align: center;
+	width: 300px;
+	height: 20px;
+}
+
+#mfa {
+	margin: 2px;
+	padding: 5px;
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+	transition: 0.4s;
+}
+
+#mfa:hover {
+	margin: 2px;
+	padding: 5px;
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	transition: 0.4s;
+}
+
+#content {
+	margin: 2px;
+	padding: 5px;
+}
+
+#channelid {
+	margin: 2px;
+	padding: 5px;
+}
+
+#btn {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+	-webkit-text-stroke: 0.5px black;
+	background-color: #FFF;
+	border: #a8a8a8 2px solid;
+	border-radius: 15px;
+	height: 45px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.holder {
+	display: grid;
+	align-content: center;
+	margin: auto;
+	text-align: center;
+	padding-top: 300px;
+	transition: 0.7s;
+	transition-timing-function: cubic-bezier(0,0,1.58,1);
+}
