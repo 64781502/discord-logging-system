@@ -1,6 +1,8 @@
 # discord-logging-system
 Send message thru JavaScript XHR request!
 
+[Discord](https://discord.com) is a VoIP, instant messaging and digital distribution platform designed for creating communities.
+
 # How to use:
 ## Content
 ![Co](https://i.imgur.com/IuW3GfV.png)
