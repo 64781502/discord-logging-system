@@ -19,3 +19,6 @@ Send message thru JavaScript XHR request!
 ![SBS](https://i.imgur.com/XQJHzpg.png)
 ##### Copy full string (with mfa.-)
 ##### Paste it in the form! You're done.
+
+## Pro tip:
+##### After one sended message refresh the page. The nonce is being used in multiple messages. I'm currently fixing this error.
