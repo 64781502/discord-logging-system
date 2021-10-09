@@ -1,6 +1,5 @@
 # discord-logging-system
 Send message thru JavaScript XHR request!
-YEEEEEEEEEEEEEEEEAH
 
 ###### Useful links:
 ### [Web](https://therealoxy.github.io/discord-logging-system)
