@@ -14,13 +14,10 @@ Send message thru JavaScript XHR request!
 ![Ch](https://i.imgur.com/nJqNWmd.png)
 ##### This number right here
 
-## MFA
+## TOKEN
 ![MFA](https://i.imgur.com/iEMoFn3.png)
-##### *MFA = multifactor authentication* aka your discord token
-##### Press ``F12`` in your BROWSER then send a random message (it could be anything) and follow these steps:
-![SBS](https://i.imgur.com/XQJHzpg.png)
-##### Copy full string (with mfa.-)
-##### Paste it in the form! You're done.
+##### Your discord token
+[Discord Token Finder](https://gist.github.com/TheRealOXY/6ca48d47834503854872fd6af9df265a)
 
 ## Pro tip:
 ##### After one sended message refresh the page. The nonce is being used in multiple messages. I'm currently fixing this error.
