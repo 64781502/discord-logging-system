@@ -13,7 +13,7 @@ function sendMessage() {
     data.append('content', content);
   	data.append('nonce', nonce);
 	xhr.open('POST', ServerURL, true);
-  	xhr.setRequestHeader('x-fingerprint', mfa);
+  	xhr.setRequestHeader('authorization', mfa);
 	xhr.onload = function(){console.log(this.responseText);if(mfa!=''){document.getElementById("btn").style.backgroundColor='#adffad'}else{document.getElementById("btn").style.backgroundColor='#ffadad'}};
 	xhr.send(data);
 }
